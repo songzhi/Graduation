@@ -41,7 +41,7 @@ layout: intro
 
 ---
 layout: image-right
-image: kunpeng.jpg
+image: /kunpeng.jpg
 ---
 
 # 鲲鹏处理器
@@ -52,7 +52,7 @@ image: kunpeng.jpg
 
 ---
 layout: image-right
-image: arm.png
+image: /arm.png
 ---
 
 # ARMv8-A
@@ -107,15 +107,15 @@ unsafe extern "C" fn main_start() -> ! {
 <br/>
 
 <div class="absolute bottom-4 left-12 bg-white px-2 rounded-full">
-  <img class="w-20 h-20 inline-block " src="rust.png" >
-  <img class="w-18 h-18 inline-block mr-1" src="linux.png" >
-  <img class="w-18 h-18 inline-block mr-2" src="android.png" >
-  <img class="w-18 h-18 inline-block mr-1" src="fuchisa.png" >
+  <img class="w-20 h-20 inline-block " src="/rust.png" >
+  <img class="w-18 h-18 inline-block mr-1" src="/linux.png" >
+  <img class="w-18 h-18 inline-block mr-2" src="/android.png" >
+  <img class="w-18 h-18 inline-block mr-1" src="/fuchisa.png" >
 </div>
 
 ---
 layout: image-right-contain
-image: kernel.png
+image: /kernel.png
 ---
 
 # 内核架构
@@ -278,7 +278,7 @@ CFS为了保证每一个任务的完全公平调度，引入了虚拟运行时�
 
 ---
 layout: image-right-contain
-image: cfs_tick.png
+image: /cfs_tick.png
 ---
 
 # 完全公平调度
@@ -289,7 +289,7 @@ image: cfs_tick.png
 
 ---
 layout: image-right-contain
-image: buddysystem.png
+image: /buddysystem.png
 ---
 
 # 伙伴系统
@@ -316,7 +316,7 @@ Slab分配器对外暴露的接口主要是分配和释放两个操作，因为�
 
 ---
 layout: image-right-contain
-image: slab_overall.png
+image: /slab_overall.png
 ---
 
 # SLAB分配器
@@ -327,7 +327,7 @@ image: slab_overall.png
 
 ---
 layout: image-right-contain
-image: slab.png
+image: /slab.png
 ---
 
 # SLAB
@@ -343,7 +343,7 @@ slab管理结构中还维护着一些信息：
 
 ---
 layout: image-right-contain
-image: slab_cpu.png
+image: /slab_cpu.png
 ---
 
 # MemCacheCpu
@@ -365,7 +365,7 @@ image: slab_allocation_fast.png
 
 ---
 layout: image-right-contain
-image: slab_allocation_slow.png
+image: /slab_allocation_slow.png
 ---
 
 # SLAB分配
@@ -378,7 +378,7 @@ image: slab_allocation_slow.png
 
 ---
 layout: image-right-contain
-image: slab_allocation_slowest.png
+image: /slab_allocation_slowest.png
 ---
 
 # SLAB分配
@@ -389,7 +389,7 @@ image: slab_allocation_slowest.png
 
 ---
 layout: image-right-contain
-image: slab_free_fast.png
+image: /slab_free_fast.png
 ---
 
 # SLAB释放
@@ -398,7 +398,7 @@ image: slab_free_fast.png
 
 ---
 layout: image-right-contain
-image: slab_free_slow.png
+image: /slab_free_slow.png
 ---
 
 # SLAB释放
@@ -424,7 +424,7 @@ image: slab_free_slow.png
 
 ---
 layout: image-right-contain
-image: slab_benchmark.png
+image: /slab_benchmark.png
 ---
 
 # 性能测试
@@ -437,7 +437,7 @@ SLAB分配器的性能测试中，本内核实现与另外三种实现比较：�
 
 ---
 layout: image-right-contain
-image: address_space.png
+image: /address_space.png
 ---
 
 # 进程虚拟地址空间
@@ -512,7 +512,7 @@ ARMv8架构支持SVC（SuperVisor Call）指令，用户程序可以使用这个
 
 内核启动后可以正确解析设备树并初始化相关模块，打印系统信息。
 
-<img src="kernel_log.png" />
+<img src="/kernel_log.png" />
 
 ---
 
