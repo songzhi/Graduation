@@ -1,6 +1,5 @@
 ---
 theme: seriph
-download: true
 highlighter: shiki
 fonts:
   sans: '思源黑体'
