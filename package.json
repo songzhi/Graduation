@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.19.6",
+    "@slidev/theme-apple-basic": "^0.19.0",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "playwright-chromium": "^1.11.1",
+    "slidev-theme-flayyer": "^1.0.2",
+    "slidev-theme-penguin": "^1.1.0",
+    "slidev-theme-zhozhoba": "^1.0.0"
+  },
+  "name": "graduation"
+}
