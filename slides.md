@@ -1,9 +1,6 @@
 ---
 theme: seriph
 highlighter: shiki
-fonts:
-  sans: '思源黑体'
-  local: '思源黑体'
 title: 面向鲲鹏处理器的简单操作系统设计与实现
 layout: cover
 ---
